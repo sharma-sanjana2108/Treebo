@@ -1,0 +1,750 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: auto; 
+    
+}
+
+.header-part{
+    width: 100%;
+    height: 300px;
+   background-image: url("./footer_img.jpg");
+   background-position: center;
+   background-size: cover;  
+}
+
+.first-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-inline: 80px;
+    
+}
+
+.first-part ul{
+    width: 30%;
+display: flex;
+justify-content: space-evenly;
+}
+
+.first-part ul li{
+    list-style: none;
+    color: white;
+}
+
+.text-part{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-part h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-part h5{
+    font-size: 28px;
+    font-weight: 450;
+}
+
+.line-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.line-box input{
+    width: 350px;
+    height: 50px;
+    border: none;
+}
+
+#search-btn{
+    width: 220px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+background-color: rgb(53, 168, 53);
+border: none;
+}
+
+#calendar-btn{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-left: 1px solid gray;
+ }
+
+#adult-btn{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-left: 1px solid gray;
+}
+
+.city-bar{
+    width: 100%;
+    height: auto;
+    background-color: white;
+   padding: 20px;  
+}
+
+.city-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.city-bar ul li{
+    list-style: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(220, 214, 214);
+    padding-bottom: 40px;
+}
+
+.blue-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.blue-box{
+    width: 86%;
+    height: auto;
+    padding-inline: 40px;
+    padding-block: 16px;
+    background-image: url("./blue_img.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.blue-box h5{
+    color: white;
+    font-size: 18px;
+}
+
+.blue-box h6{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+.login-btn button{
+    width: 92px;
+    height: 36px;
+    background-color: rgb(116, 116, 219);
+    color: white;
+    border: 1px solid white;
+}
+
+.video-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;  
+}
+
+.content-part{
+    width: 100%;
+    height: auto;
+    padding-block: 50px; 
+}
+
+.content-part h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.content-part h6{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.three-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px; 
+}
+
+.itsy-text ul li{
+    list-style: none;
+    padding-top: 20px;
+    
+}
+
+.trend-text ul li{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.tryst-text ul li{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.offer-part{
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 239, 239);
+    text-align: center;
+    padding-block: 50px;
+}
+
+.offer-part h1{
+font-size: 32px;
+font-weight: 800;
+}
+
+.offer-part h6{
+    font-size: 15px;
+    color: gray;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+.offer-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.offer-boxes img{
+    width: 600px;
+}
+
+.destination{
+    width: 100%;
+    height: auto;
+    padding-block: 50px;
+}
+
+.destination h1{
+font-size: 32px;
+text-align: center;
+font-weight: 800;
+}
+
+.destination h6{
+    font-size: 14px;
+    text-align: center;
+    color: rgb(149, 147, 147);
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.city-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.mumbai{
+    width: 320px;
+    height: 300px;
+    background-image: url("./Mumbai.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.hyderabad{
+    width: 320px;
+    height: 300px;
+    background-image: url("./hyderabad.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.goa{
+    width: 320px;
+    height: 300px;
+    background-image: url("./goa.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.gallery{
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 50px;
+}
+
+.summer{
+    
+}
+
+.summer h1{
+font-size: 18px;
+}
+
+.summer img{
+    width: 400px;
+    padding-top: 20px;
+}
+
+.summer p{
+    font-size: 15px; 
+    color: gray;
+    padding-block: 15px; 
+}
+
+.summer a{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.weekend h1{
+    font-size: 18px;
+    }
+    
+    .weekend img{
+    width: 400px;
+    padding-top: 20px;
+    }
+    
+    .weekend p{
+        font-size: 15px;
+        color: gray;
+        padding-block: 15px; 
+    }
+
+    .weekend a{
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .rishikesh h1{
+        font-size: 16px;
+        }
+        
+        .rishikesh img{
+            width: 400px;
+            padding-top: 20px;
+        }
+        
+        .rishikesh p{
+            font-size: 15px; 
+            color: gray;
+            padding-block: 15px;  
+        }
+
+        .rishikesh a{
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .find-section{
+            width: 100%;
+            height: auto;
+            padding-block: 30px;
+        }
+
+        .find-section h1{
+            font-size: 25px;
+            padding-inline: 80px;
+        }
+
+        .find-line{
+            width: 100%;
+            height: auto;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+         padding-inline: 50px;
+         
+        }
+
+        .find-line li{
+            
+            list-style: none;
+            color: gray;
+            font-size: 15px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+           
+        }
+
+        .hotels{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+           
+        }
+
+        .hotels ul li{
+            list-style: none;
+            padding: 10px;
+            padding-left: 80px;
+            font-size: 13px;
+            color: gray;
+        }
+
+        .footer-section{
+            width: 100%;
+            height: auto;
+            background-color: rgb(214, 214, 214);
+            padding-block: 50px;
+        }
+
+        .footer{
+            width: 100%;
+            height: auto;
+            display: flex;
+           align-items: start;
+            justify-content: space-evenly;
+        }
+
+        .footer ul li{
+            list-style: none;
+            padding: 10px;
+            color: gray;
+            font-size: 16px;
+
+        }
+
+        .copyright{
+            width: 100%;
+            height: auto;
+            padding: 90px;
+            
+        }
+
+        .copyright h3{
+          
+            padding-top: 20px;
+        }
+
+        .copyright p{
+            font-size: 12px;
+            padding-top: 20px;
+            color: gray;
+        }
+
+        .copyright img{
+            width: 150px;
+            padding-top: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .main-container{
+    width: 100%;
+    height: auto;
+    }
+
+    .header-part{
+        width: 100%;
+       height: 250px;
+    }
+
+    .first-part ul li:nth-child(2){
+        display: none;
+    }
+
+    .first-part ul li:nth-child(3){
+        display: none;
+    }
+
+    .text-part h4{
+        font-size: 17px;
+    }
+
+    .text-part h5{
+        font-size: 23px;
+    }
+
+    .line-box{
+        width: 100%;
+        height: auto;
+        padding-inline: 10px;
+    }
+
+ #calendar-btn{
+    width: 280px;
+ }
+
+ #adult-btn{
+    width: 110px;
+ }
+
+ .line-box input{
+    width: 100px;
+ }
+ #search-btn{
+    width: 120px;
+    font-size: 14px;
+ }
+
+ .city-bar{
+    width: 100%;
+    height: auto;
+    padding-inline: 10px;
+ }
+
+ .city-bar ul li{
+    font-size: 14px;
+ }
+
+ .city-bar ul li:nth-child(5){
+    display: none;
+ }
+
+ .city-bar ul li:nth-child(6){
+    display: none;
+ }
+
+ .city-bar ul li:nth-child(7){
+    display: none;
+ }
+
+ .city-bar ul li:nth-child(8){
+    display: none;
+ }
+
+ .video-container{
+    width: 100%;
+    height: auto;
+    
+    flex-direction: column;
+ }
+
+ .green-box img{
+width: 415px;
+ }
+
+ .youtube img{
+    width: 415px;
+    padding-top: 20px;
+ }
+
+ .content-part{
+    width: 100%;
+    height: auto;
+    
+ }
+
+ .three-box{
+    flex-direction: column;
+  
+ }
+
+ .itsy-box{
+    padding-block: 20px;
+ }
+
+ .trend-box{
+    padding-block: 20px;
+ }
+
+ .tryst-box{
+    padding-block: 20px;
+ }
+
+ .offer-part{
+    width: 100%;
+    height: auto;
+    
+ }
+
+ .offer-boxes{ 
+    flex-direction: column;
+ }
+
+ .offer-boxes img{
+    width: 450px;
+    padding-left: 18px;
+    padding-top: 10px;
+ }
+
+ .destination{
+    width: 100%;
+    height: auto;
+ }
+
+ .city-img{
+    flex-direction: column;  
+ }
+
+ .goa{
+    margin-top: 20px;
+ }
+
+ .hyderabad{
+    margin-top: 20px;
+ }
+
+ .gallery{
+    width: 100%;
+    height: auto;
+    flex-direction: column;  
+ }
+
+ .weekend{
+    padding-top: 20px;
+ }
+
+ .rishikesh{
+    padding-top: 20px;
+ }
+
+ .find-section{
+    width: 100%;
+    height: auto;
+ }
+
+ .find-section h1{
+    text-align: center;
+ }
+
+ .find-line{
+    padding-inline: 15px;
+ }
+
+ .find-line li{
+    font-size: 12px;
+ }
+
+ .find-line li:nth-child(4){
+    display: none;
+ }
+
+ .find-line li:nth-child(5){
+    display: none;
+ }
+
+ .hotels{
+    width: 100%;
+    height: auto;
+ }
+
+ .hotels ul li{
+    font-size: 12px;
+    padding-left: 20px;
+ }
+
+ .hotels ul:nth-child(4){
+    display: none;
+ }
+
+ .hotels ul:nth-child(5){
+    display: none;
+ }
+
+ .footer-section{
+    width: 100%;
+    height: auto;
+ }
+ .footer{
+    padding-inline: 20px;
+ }
+
+ .footer ul li{
+    font-size: 14px;
+ }
+
+ .footer ul:nth-child(4){
+    display: none;
+ }
+
+ .copyright{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+ }
+
+.copyright h3{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+}
